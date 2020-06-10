@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_sugo_round"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"/>
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Name"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapWords"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Phone number"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+    <TextView
+        android:id="@+id/gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="male"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        />
+    <RadioButton
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Female"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technical skills"
+        android:layout_marginStart="8dp"
+        android:textSize="25sp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="java"
+        android:layout_marginStart="8dp"
+        android:id="@+id/java"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginStart="8dp"
+        android:textSize="20sp"
+        android:id="@+id/android"/>
+    <Spinner
+        android:entries="@array/branches"
+        android:id="@+id/branches"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:id="@+id/display"
+        android:onClick="display"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textSize="18sp"
+        android:text="result"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp" />
+</ScrollView>
+
+</LinearLayout>
