@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">contact us</string>
+    <string name="settings">settings</string>
+    <string name="alert">Alert</string>
+    <string name="date_picker">Date picker</string>
+    <string name="time_picker">Time picker</string>
+</resources>
