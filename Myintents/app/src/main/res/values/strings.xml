@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My intents</string>
+    <string name="explicit_intent_example">Explicit intent example</string>
+    <string name="open_second_screen">open second screen</string>
+    <string name="implicit_intent_example">Implicit intent example</string>
+    <string name="enter_the_url">Enter the url</string>
+    <string name="check_ur_face">check ur face !!!!</string>
+    <string name="search">search</string>
+    <string name="here_displays_the_message">Here displays the message</string>
+    <string name="enter_the_message">Enter the message</string>
+</resources>
