@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Material_UI</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="tech_solutions">Tech solutions</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="enter_in">Enter In</string>
+</resources>
