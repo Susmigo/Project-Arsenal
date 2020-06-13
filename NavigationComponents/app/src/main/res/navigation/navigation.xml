@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/first_Fragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/first_Fragment"
+        android:name="com.sugo.navigationcomponents.First_Fragment"
+        android:label="fragment_first_"
+        tools:layout="@layout/fragment_first_" >
+        <action
+            android:id="@+id/action_first_Fragment_to_red_Fragment2"
+            app:destination="@id/red_Fragment" />
+        <action
+            android:id="@+id/action_first_Fragment_to_blue_Fragment"
+            app:destination="@id/blue_Fragment" />
+        <action
+            android:id="@+id/action_first_Fragment_to_green_Fragment"
+            app:destination="@id/green_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/red_Fragment"
+        android:name="com.sugo.navigationcomponents.Red_Fragment"
+        android:label="fragment_red_"
+        tools:layout="@layout/fragment_red_" />
+    <fragment
+        android:id="@+id/blue_Fragment"
+        android:name="com.sugo.navigationcomponents.Blue_Fragment"
+        android:label="fragment_blue_"
+        tools:layout="@layout/fragment_blue_" />
+    <fragment
+        android:id="@+id/green_Fragment"
+        android:name="com.sugo.navigationcomponents.Green_Fragment"
+        android:label="fragment_green_"
+        tools:layout="@layout/fragment_green_" />
+</navigation>
