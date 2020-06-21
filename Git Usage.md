@@ -1,6 +1,6 @@
 # Procedure to upload project code from local directory to GitHub
 
-1.Install git 
+1.Install git from here [Git](https://git-scm.com/downloads) 
 ```
 ```
 2.Make a repository in github
